@@ -1,7 +1,13 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <h1 className="bg-tahiti">Hello world</h1>
+    <div className="max-w-7xl mx-auto border">
+      <div className="text-white">hello world</div>
+      {/* <Header />
+      <Hero />
+      <VideoExplanation />
+      <Princing />
+      <FAQ /> */}
+    </div>
   );
 }
